@@ -20,7 +20,8 @@ public class BaseClass {
 		
 		//This is to access file
 		//C:\\Users\\Owner\\eclipse-workspace\\MavenProject
-		FileInputStream fis = new FileInputStream (System.getProperty("User.dir")+"\\src\\main\\java\\Resources\\Data.properties");
+		//System.getProperty("User.dir")+"\\src\\main\\java\\Resources\\Data.properties
+		FileInputStream fis = new FileInputStream ("C:\\Users\\Owner\\eclipse-workspace\\MavenProject\\src\\main\\java\\Resources\\Data.properties");
 		
 		//Read the file data
 		Properties prop = new Properties ();
