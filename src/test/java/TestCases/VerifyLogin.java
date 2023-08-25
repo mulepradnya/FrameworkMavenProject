@@ -41,7 +41,7 @@ public class VerifyLogin extends BaseClass {
 		
 		LoginPageObjects LOP = new LoginPageObjects (driver);
 		
-		LOP.enterUsername().sendKeys("User1");
+		LOP.enterUsername().sendKeys("Pradnya Mule");
 		
 		LOP.enterPassword().sendKeys("Test1");
 		
